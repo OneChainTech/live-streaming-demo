@@ -266,7 +266,7 @@ function closePC(pc = peerConnection) {
   }
 }
 
-const maxRetryCount = 3;
+const maxRetryCount = 4;
 const maxDelaySec = 4;
 
 async function fetchWithRetries(url, options, retries = 1) {
